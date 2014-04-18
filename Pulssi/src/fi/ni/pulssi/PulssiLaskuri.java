@@ -868,7 +868,6 @@ public class PulssiLaskuri
 					float tulos = f_hr - f_fom;
 					DecimalFormatSymbols dfs = new DecimalFormatSymbols();
 					dfs.setDecimalSeparator(',');
-					DecimalFormat decimalFormat = new DecimalFormat("0.000", dfs);
 				}
 			}
 			if (qName.equalsIgnoreCase("HR"))

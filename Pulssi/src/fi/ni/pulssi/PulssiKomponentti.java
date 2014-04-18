@@ -4,25 +4,17 @@
 package fi.ni.pulssi;
 
 import java.awt.Color;
-
-
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
-import java.awt.image.BufferedImage;
-import java.awt.image.PixelGrabber;
-import java.io.ByteArrayOutputStream;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.swing.JComponent;
-
-import com.sun.image.codec.jpeg.JPEGCodec;
-import com.sun.image.codec.jpeg.JPEGImageEncoder;
 
 
 /*
@@ -33,6 +25,11 @@ import com.sun.image.codec.jpeg.JPEGImageEncoder;
 
 public class PulssiKomponentti extends JComponent implements Serializable, MouseMotionListener, MouseListener
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	Image backbuffer;
 
 	Graphics backg;

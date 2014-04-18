@@ -26,6 +26,10 @@ public class PulssiView
 	extends JFrame
 	implements ActionListener {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3074636571069087855L;
 	public PulssiKomponentti pk;
 	public PulssiView() {
 		super();
